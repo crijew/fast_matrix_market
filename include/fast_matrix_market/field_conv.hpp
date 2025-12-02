@@ -4,7 +4,9 @@
 
 #pragma once
 
+#if __has_include(<charconv>)
 #include <charconv>
+#endif
 #include <cmath>
 #include <cstring>
 #include <complex>
